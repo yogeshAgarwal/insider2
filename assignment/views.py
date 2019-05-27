@@ -31,14 +31,15 @@ def index(request):
 
 
 
-        return render(request, 'assignment/first.html', {})
+        return render(request, 'assignment/index.html', {})
 
 
 # def crop(width, length, url):
     # http://res.cloudinary.com/ifyogesh/image/upload/w_240,h_200,c_crop/atrpftvogyq1ykwzsdnh.jpg
 
 
-
+def first(request):
+    return render(request, 'assignment/first.html', {})
 
 
 # def upload_prompt(request):
